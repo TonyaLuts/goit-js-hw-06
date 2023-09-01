@@ -9,6 +9,7 @@ formEl.addEventListener("submit", (event) => {
 
   if (email === "" || password === "") {
     alert("Please fill in all the fields!");
+    return;
   }
   const formData = {
     email,
